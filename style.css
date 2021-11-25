@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  html {
+    background-color: #222;
+    color: white;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  td{border:0px solid grey;
+    border-collapse:collapse;
+    background-color:lightgray;
+    padding: 10px;;
+      }
+  table{
+    width:100px;
+    border:0px solid grey;
+  }
+    
+  
+  select, button {
+    height: 18px;
+  }
+  
+  
+  .red {
+    background-color: red;
+  }
+  .orange {
+    background-color:orange;
+  }
+  .yellow {
+    background-color:yellow;
+  }
+  .green {
+    background-color:green;
+  }
+  .blue{
+    background-color:blue;
+  }
+  .indigo {
+    background-color:indigo;
+  }
+  .violet {
+    background-color:violet;
+  }
+  .black {
+    background-color:black;
+  }
+  .white {
+    background-color:white;
+  }
+  .brown{
+    background-color:brown;
+  }
+
+  header {
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    padding-top:20px;
+    
+       
+  }
+
+  a{
+      color:green;
+  }
