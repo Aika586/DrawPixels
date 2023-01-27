@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="draw-app">
-    <meta  name="keywords" content="mintbean-hiring -hackathone,drawpixels">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="draw-app" />
+    <meta name="keywords" content="mintbean-hiring -hackathone,drawpixels" />
 
-    <title> Home page drawPixel</title>
+    <title>AboutDrawPixels</title>
     <!-- This gets us our fun 8-bit font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P"
-      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
 
     <!-- loads our own CSS file -->
     <link rel="stylesheet" href="index.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        
-    <h1>DrawPixels</h1> 
-    
-       <a href="index P.html">Try it</a>
-      
-    
+      <h1>DrawPixels</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="index P.html">Try it</a></li>
+      </ul>
     </header>
-    <div class='about'> 
-        <table>
-            <thead>
-            <tr>
-                <th> About</th>
+    <div class="video-section">
+      <div class="text">
+        Re-create characters from all your favorite classic video games!
+      </div>
 
-            </tr>
-            </thead>
-
-            <tboody>
-                <tr>
-                    <td class="text">You'll be able to re-create characters from all your favorite classic video games!
-                        Users can add rows when they click that "Add Row" button.
-                        Clicking on a cell will toggle certain color.Whatever color has been chosen by 
-                        the user, and then change the cells that we click to be that color. 
-                        It can be tiresome to have to click each cell individually. 
-                        So user's can that dragging the mouse over cells will "paint" 
-                        them the specified color! You'll take advantage of "mouseup", "mousedown" that you used to drag and drop cats, as well as the "mouseover" </td>
-                    <td><video controls src="veed.mp4" width="500px"  autoplay loop muted="false" ></video></td>
-                </tr>
-            </tboody>
-         </table>   
+      <video
+        controls
+        src="video.mp4"
+        width="550px"
+        autoplay
+        loop
+        muted="true"
+      ></video>
     </div>
-    <footer> 
-        <p class= footer-title> Aikokul Chargynova Copyright 2021</p>
-        <p ><a class="github" href="https://github.com/Aika 586">GitHub</a>  </p>
-    </footer>
-    
-</body>
+    <div class="text-section" id="about">
+      <p>
+        Users can add rows when they click that "Add Row" button. Clicking on a
+        cell will toggle certain color.Whatever color has been chosen by the
+        user, and then change the cells that we click to be that color. It can
+        be tiresome to have to click each cell individually. So user's can that
+        dragging the mouse over cells will "paint" them the specified color!
+        You'll take advantage of "mouseup", "mousedown" that you used to drag
+        and drop cats, as well as the "mouseover".
+      </p>
+    </div>
+    <footer>Aikokul Chargynova Copyright 2022</footer>
+  </body>
 </html>

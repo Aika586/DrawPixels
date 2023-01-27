@@ -1,56 +1,87 @@
 * {
-    box-sizing: border-box;
-    
-  }
+  box-sizing: border-box;
+}
 
-  html {
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-    color:white;
-  }
-  
-  
+body {
+  background-color: #252825;
+}
 
-  a{
-    color:aliceblue
-  }
+h1 {
+  font-family: "Press Start 2P", cursive;
+  margin-left: 50px;
+}
+ul {
+  list-style: none;
+  margin: 0 50px 0 0;
+  padding: 0;
+}
 
-   header{
-       display: flex;
-       flex-direction:center;
-       align-items:center;
-       justify-content:space-between;
-       padding-left: 100px;
-       padding-right: 100px;
-       padding-top: 20px;
-       font-family: 'Press Start 2P', cursive;
-   }
+ul {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
 
-   .about{
-    padding-left:50px;
-    padding-top:30px;
-    padding-right:50px;
+h1,
+a {
+  color: #ffffff;
+}
 
-   }
+a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 900;
+}
 
-   th{
-     font-size: 50px;
-     font-family:Arial, Helvetica, sans-serif;
-     font-style: italic;
-     
-   }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
-   .text{
-     font-family:Arial, Helvetica, sans-serif;
-     font-style: italic;
-     
-   }
+.text {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ffffff;
+}
 
-   footer{
-     text-align:center;
-     padding-top:100px;
-     color:#330867
-   }
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+video {
+  border: 10px solid white;
+}
 
-   .github{
-     color:#330867
-   }
+.text,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+p {
+  max-width: 700px;
+  text-align: center;
+  font-size: 25px;
+  padding: 40px;
+}
+.text-section {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
